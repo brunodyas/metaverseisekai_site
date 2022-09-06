@@ -1230,6 +1230,7 @@ pre code {
   .col-lg-8 {
     flex: 0 0 66.666667%;
     max-width: 66.666667%;
+    left: 17%;
   }
   .col-lg-9 {
     flex: 0 0 75%;
@@ -5876,7 +5877,7 @@ button.close {
 
 .modal {
   position: fixed;
-  top: 0;
+  top: -200px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -5885,15 +5886,25 @@ button.close {
   overflow: hidden;
   outline: 0;
 }
-
+/* Altura da modal */
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 0.5rem;
+  margin: 1.5rem;
   pointer-events: none;
+  height: 70%;
+  left: 0.4%;
+  top: -4.4%;
   
 }
 
+.cc {
+  position: relative;
+  width: auto;
+  margin: 1.5rem;
+  pointer-events: none;
+  height: 90%;
+}
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
   transform: translate(0, -25%);
@@ -5925,8 +5936,8 @@ button.close {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 1400px;
+  height: 900px;
   pointer-events: auto;
   background-color: #ffd600;
   background-clip: padding-box;
@@ -5934,7 +5945,10 @@ button.close {
   border-radius: 0.2857rem;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.5);
   outline: 0;
+  left: 13%;
+
 }
+
 
 .modal-backdrop {
   position: fixed;
@@ -5978,6 +5992,9 @@ button.close {
   position: relative;
   flex: 1 1 auto;
   padding: 24px 24px 16px 24px;
+  height: 100%;
+  /* top: -5%; */
+  left: 2%;
 }
 
 .modal-footer {
@@ -7161,6 +7178,7 @@ button.bg-darker:focus {
 
 .justify-content-between {
   justify-content: space-between !important;
+  
 }
 
 .justify-content-around {
@@ -9547,6 +9565,7 @@ button.bg-darker:focus {
   .mb-lg-auto,
   .my-lg-auto {
     margin-bottom: auto !important;
+    left: 25%;
   }
   .ml-lg-auto,
   .mx-lg-auto {
@@ -10699,10 +10718,10 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .btn-primary {
   background: #205a93;
-  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: -o-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: -moz-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
+  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: -o-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: -moz-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
   background-size: 210% 210%;
   background-position: top right;
   background-color: #205a93;
@@ -10724,11 +10743,11 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .btn-primary:active:hover,
 .btn-primary.active:focus,
 .btn-primary.active:hover {
-  background-color: #ba54f5 !important;
-  background-image: linear-gradient(to bottom left, #205a93, #ba54f5, #205a93) !important;
-  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93) !important;
-  background-image: -o-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93) !important;
-  background-image: -moz-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93) !important;
+  background-color: #ffd600 !important;
+  background-image: linear-gradient(to bottom left, #205a93, #ffd600, #205a93) !important;
+  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ffd600, #205a93) !important;
+  background-image: -o-linear-gradient(to bottom left, #205a93, #ffd600, #205a93) !important;
+  background-image: -moz-linear-gradient(to bottom left, #205a93, #ffd600, #205a93) !important;
   color: #ffffff;
   box-shadow: none;
 }
@@ -10800,11 +10819,11 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary.btn-simple.active:not(:disabled):not(.disabled):active {
   color: #ffffff;
   border-color: #205a93;
-  background-image: linear-gradient(to bottom left, #205a93, #ba54f5, #205a93) !important;
-  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93) !important;
-  background-image: -o-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93) !important;
-  background-image: -moz-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93) !important;
-  background-color: #ba54f5 !important;
+  background-image: linear-gradient(to bottom left, #205a93, #ffd600, #205a93) !important;
+  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ffd600, #205a93) !important;
+  background-image: -o-linear-gradient(to bottom left, #205a93, #ffd600, #205a93) !important;
+  background-image: -moz-linear-gradient(to bottom left, #205a93, #ffd600, #205a93) !important;
+  background-color: #ffd600 !important;
   box-shadow: none;
 }
 
@@ -11467,13 +11486,13 @@ fieldset[disabled] .btn-neutral.active {
 .show>.btn-neutral.dropdown-toggle:focus,
 .show>.btn-neutral.dropdown-toggle:hover {
   background-color: #ffffff;
-  color: #ba54f5;
+  color: #ffd600;
   box-shadow: none;
 }
 
 .btn-neutral:hover,
 .btn-neutral:focus {
-  color: #ba54f5;
+  color: #ffd600;
 }
 
 .btn-neutral:hover:not(.nav-link),
@@ -12751,6 +12770,7 @@ img {
   padding-left: 16px;
   padding-right: 16px;
   width: auto;
+  top: -29%;
 }
 
 .modal-content .modal-footer button.pull-left {
@@ -13581,6 +13601,7 @@ img {
 .modal .modal-header .close {
   color: #fd5d93;
   text-shadow: none;
+  display: none;
 }
 
 .modal .modal-header .close:hover,
@@ -14335,7 +14356,7 @@ h6 {
 }
 
 a {
-  color: #ba54f5;
+  color: #ffd600;
   font-weight: 300;
 }
 
@@ -15336,10 +15357,10 @@ hr {
 .pagination .page-item.active>.page-link:focus,
 .pagination .page-item.active>.page-link:hover {
   background: #205a93;
-  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: -o-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: -moz-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
+  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: -o-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: -moz-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
   background-size: 210% 210%;
   background-position: top right;
   color: #ffffff;
@@ -15377,10 +15398,10 @@ hr {
 .pagination.pagination-primary .page-item.active>.page-link:focus,
 .pagination.pagination-primary .page-item.active>.page-link:hover {
   background: #205a93;
-  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: -o-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: -moz-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
+  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: -o-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: -moz-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
   background-size: 210% 210%;
   background-position: top right;
 }
@@ -16392,11 +16413,11 @@ textarea.form-control:active {
 
 .index-page .squares {
   animation: move-left-right 1s infinite;
-  background: #ba54f5;
-  background: -webkit-linear-gradient(0deg, #ba54f5 0%, #205a93 100%);
-  background: -o-linear-gradient(0deg, #ba54f5 0%, #205a93 100%);
-  background: -moz-linear-gradient(0deg, #ba54f5 0%, #205a93 100%);
-  background: linear-gradient(0deg, #ba54f5 0%, #205a93 100%);
+  background: #ffd600;
+  background: -webkit-linear-gradient(0deg, #ffd600 0%, #205a93 100%);
+  background: -o-linear-gradient(0deg, #ffd600 0%, #205a93 100%);
+  background: -moz-linear-gradient(0deg, #ffd600 0%, #205a93 100%);
+  background: linear-gradient(0deg, #ffd600 0%, #205a93 100%);
   position: absolute;
   transition: 0.5s ease-out;
   overflow: hidden;
@@ -17004,11 +17025,11 @@ textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #ba54f5;
-  background-image: -webkit-linear-gradient(to bottom left, #ba54f5, #205a93, #ba54f5);
-  background-image: -o-linear-gradient(to bottom left, #ba54f5, #205a93, #ba54f5);
-  background-image: -moz-linear-gradient(to bottom left, #ba54f5, #205a93, #ba54f5);
-  background-image: linear-gradient(to bottom left, #ba54f5, #205a93, #ba54f5);
+  background: #ffd600;
+  background-image: -webkit-linear-gradient(to bottom left, #ffd600, #205a93, #ffd600);
+  background-image: -o-linear-gradient(to bottom left, #ffd600, #205a93, #ffd600);
+  background-image: -moz-linear-gradient(to bottom left, #ffd600, #205a93, #ffd600);
+  background-image: linear-gradient(to bottom left, #ffd600, #205a93, #ffd600);
   background-size: 210% 210%;
   background-position: top right;
 }
@@ -17170,10 +17191,10 @@ textarea.form-control:active {
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
   background: #205a93;
-  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: -o-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: -moz-linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
-  background-image: linear-gradient(to bottom left, #205a93, #ba54f5, #205a93);
+  background-image: -webkit-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: -o-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: -moz-linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
+  background-image: linear-gradient(to bottom left, #205a93, #ffd600, #205a93);
   background-size: 210% 210%;
   background-position: top right;
 }
@@ -17411,8 +17432,9 @@ hr.line-deafult {
 }
 
 .section {
-  padding: 70px 0;
+  /* padding: 70px 0; */
   position: relative;
+  top: -723px;
 }
 
 .section .row+.category {
@@ -17504,7 +17526,7 @@ hr.line-deafult {
 }
 
 .section-signup {
-  padding-top: 20vh;
+  padding-top: -10vh;
   overflow: hidden;
 }
 
@@ -20595,10 +20617,10 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 
 .card-register .card-header img {
   position: absolute;
-  margin-left: -50px;
-  margin-top: -150px;
+  margin-left: 43px;
+  margin-top: -279px;
   border-radius: 20%;
-  width: 350px;
+  width: 450px;
 }
 
 .card-register .header {
@@ -20635,9 +20657,9 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
   position: relative;
   font-size: 5em;
   font-weight: 900;
-  color: #222a42;
+  color: #ffd600;
   text-transform: lowercase;
-  margin-left: -5px;
+  margin-left: 65px;
   z-index: 1;
 }
 
