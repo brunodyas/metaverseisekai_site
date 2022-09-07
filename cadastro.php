@@ -1,9 +1,9 @@
 <?php
 
-$username = $_POST['username'];
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$password = MD5($_POST['password']);
+$username = $_GET['username'];
+$nome = $_GET['nome'];
+$email = $_GET['email'];
+$password = MD5($_GET['password']);
 $connect = mysql_connect('185.211.7.103','u792717350_bruno','Mamute12@');
 $db = mysql_select_db('u792717350_DB_Isekai_Game');
 $query_select = "SELECT username FROM users WHERE username = '$username'";
