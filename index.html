@@ -29,10 +29,6 @@
   <div class="row row-grid justify-content-between align-items-center">
     <img id="banner-img" class="banner-img"  src="assets/img/banner2.jpg" alt="banner-img"/>
   </div>
-  
-     
-  
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
     <div class="container">
       <div class="navbar-translate">
@@ -105,7 +101,6 @@
     </div>
   </nav>
   <!-- End Navbar -->
- 
   <div class="wrapper">
     <div class="page-header header-filter">
       <div class="squares square1"></div>
@@ -132,71 +127,7 @@
           <div class="squares square-2"></div>
           <div class="squares square-3"></div>
           <!-- <div class="squares square-4"></div> -->
-          <div class="row row-grid justify-content-between align-items-center">
-            <div class="text-center col-md-12 col-lg-8">
-              
-              <!-- <h2 class="title">Metaverse Isekai</h2> -->
-              <!-- <a id='link' href="javascript:void(document.querySelector('#link').style.color = 'green')">Link</a> -->
-              <!-- <h4 class="description">Seja transportado para um mundo de fantasia, viva grandes aventuras com seus amigos e tente derrotar o Lorde Demônio!</h4> -->
-            </div>
-            <div class="col-lg-6 mb-lg-auto">
-              <div class="card card-register">
-                <div class="card-header">
-                  <img class="card-img" src="assets/img/square1.png" alt="Card image">
-                  <h4 class="card-title">Registre-se</h4>
-                </div>
-                <div class="card-body">
-                  <!-- INICIO DO FORM -->
-                  <form class="form" method="POST" action="cadastro.php">
-                    <div class="input-group">
-                      <div class="input-group-prepend">
-                        <div class="input-group-text">
-                          <i class="tim-icons icon-single-02"></i>
-                        </div>
-                      </div>
-                      <input type="text" name="nome" id="nome" class="form-control" placeholder="Full Name">
-                    </div>
-                    <div class="input-group">
-                      <div class="input-group-prepend">
-                        <div class="input-group-text">
-                          <i class="tim-icons icon-single-02"></i>
-                        </div>
-                      </div>
-                      <input type="text" name="username" id="username" class="form-control" placeholder="Username">
-                    </div>
-                    <div class="input-group">
-                      <div class="input-group-prepend">
-                        <div class="input-group-text">
-                          <i class="tim-icons icon-email-85"></i>
-                        </div>
-                      </div>
-                      <input type="text" name="email" id="email" placeholder="Email" class="form-control">
-                    </div>
-                    <div class="input-group">
-                      <div class="input-group-prepend">
-                        <div class="input-group-text">
-                          <i class="tim-icons icon-lock-circle"></i>
-                        </div>
-                      </div>
-                      <input type="password" name="password" id="password" class="form-control" placeholder="Password">
-                    </div>
-                    <div class="form-check text-left">
-                      <label class="form-check-label">
-                        <input class="form-check-input" type="checkbox">
-                        <span class="form-check-sign"></span>
-                        Eu concordo com os 
-                        <a href="javascript:void(0)">termos e condições</a>.
-                      </label>
-                    </div>
-                    <div class="card-footer">
-                      <input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar" class="btn btn-info btn-round btn-lg">
-                    </div>
-                  </form>
-                </div>
-                
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
       <div class="section section-examples" data-background-color="black">
@@ -208,7 +139,7 @@
         <img src="assets/img/path1.png" class="path">
         
       </div>
-      <!-- Sart Modal -->
+      <!-- Game Modal -->
       <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -216,157 +147,71 @@
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
                 <i class="tim-icons icon-simple-remove"></i>
               </button>
-              <!-- <h4 class="title title-up">Metaverse Isekai</h4> -->
+              
             </div>
             <div class="modal-body">
               <iframe width=1300 height=780 src="https://metafizer.com/multiplayer/game.html"></iframe>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default">Sing in</button>
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-default" button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Cadastrar-se</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
             </div>
           </div>
         </div>
       </div>
-      <!--  End Modal -->
-      <!-- Mini Modal -->
-      <div class="modal fade modal-mini modal-primary modal-mini" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header justify-content-center">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <i class="tim-icons icon-simple-remove text-white"></i>
+      <!-- Modal Cadastre-se -->
+    <div class="form-cadastro">
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content2">
+            
+            <div class="modal-header2">
+              <h1 class="modal-title-cadastro" id="exampleModalLongTitle">Cadastre-se</h1>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
               </button>
-              <div class="modal-profile">
-                <i class="tim-icons icon-single-02"></i>
-              </div>
             </div>
             <div class="modal-body">
-              <p>Always have an access to your profile</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-link btn-neutral">Back</button>
-              <button type="button" class="btn btn-link btn-neutral" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Form Modal -->
-      <div class="modal fade modal-black" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header justify-content-center">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                <i class="tim-icons icon-simple-remove text-white"></i>
-              </button>
-              <div class="text-muted text-center ml-auto mr-auto">
-                <h3 class="mb-0">Sign in with</h3>
-              </div>
-            </div>
-            <div class="modal-body">
-              <div class="btn-wrapper text-center">
-                <a href="#" class="btn btn-neutral btn-icon">
-                  <img src="assets/img/github.svg">
-                </a>
-                <a href="#" class="btn btn-neutral btn-icon">
-                  <img src="assets/img/google.svg">
-                </a>
-              </div>
-              <div class="text-center text-muted mb-4 mt-3">
-                <small>Or sign in with credentials</small>
-              </div>
-              <form role="form">
-                <div class="form-group mb-3">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="tim-icons icon-email-85"></i>
-                      </span>
-                    </div>
-                    <input class="form-control" placeholder="Email" type="email">
-                  </div>
+              <form class="form-cadastro">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="tim-icons icon-key-25"></i>
-                      </span>
-                    </div>
-                    <input class="form-control" placeholder="Password" type="password">
-                  </div>
+                  <label for="exampleInputPassword1">Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
-                <div class="form-check mt-3">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" checked>
-                    <span class="form-check-sign"></span>
-                    Remember me!
-                  </label>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Confirmar Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
-                <div class="text-center">
-                  <button type="button" class="btn btn-primary my-4">Sign in</button>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Nome</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nome">
                 </div>
-              </form>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Sobrenome</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Sobrenome">
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-primary">Cadastrar</button>
             </div>
           </div>
         </div>
       </div>
-      <!--  End Modal -->
     </div>
+  </div>
+  <div>
     <footer class="footer">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-3">
             <h1 class="title">Metaverse Isekai</h1>
           </div>
-          <!-- <div class="col-md-3">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-link">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./examples/landing-page.html" class="nav-link">
-                  Landing
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./examples/register-page.html" class="nav-link">
-                  Register
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./examples/profile-page.html" class="nav-link">
-                  Profile
-                </a>
-              </li>
-            </ul>
-          </div> -->
-          <!-- <div class="col-md-3">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="https://creative-tim.com/contact-us" class="nav-link">
-                  Contact Us
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://creative-tim.com/about-us" class="nav-link">
-                  About Us
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://creative-tim.com/blog" class="nav-link">
-                  Blog
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://opensource.org/licenses/MIT" class="nav-link">
-                  License
-                </a>
-              </li>
-            </ul>
-          </div> -->
+          
           <div class="col-md-3 ">
             <h3 class="title">Follow us:</h3>
             <div class="btn-wrapper profile">
@@ -385,6 +230,7 @@
       </div>
     </footer>
   </div>
+  
   <!--   Core JS Files   -->
   <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
   <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
