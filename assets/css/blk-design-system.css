@@ -95,6 +95,8 @@ body {
   outline: 0 !important;
 }
 
+
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -1066,8 +1068,8 @@ pre code {
     max-width: 16.666667%;
   }
   .col-md-3 {
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 35%;
+    max-width: 35%;
   }
   .col-md-4 {
     flex: 0 0 33.333333%;
@@ -12412,7 +12414,9 @@ fieldset[disabled] .btn-link.active {
   }
 }
 
+
 .footer {
+  
   padding: 50px 0;
   border-top: 2px solid #435DB5;
   background: radial-gradient(ellipse at bottom, #292D61 30%, #171941 80%);
@@ -17434,7 +17438,7 @@ hr.line-deafult {
 .section {
   /* padding: 70px 0; */
   position: relative;
-  top: -723px;
+  top: -503px;
 }
 
 .section .row+.category {

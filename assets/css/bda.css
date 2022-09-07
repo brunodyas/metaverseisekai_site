@@ -1,0 +1,23 @@
+.banner-img {
+    position: absolute;
+    top: 100px;
+    left: 15%; 
+    width: 70%;
+    /* height: 259px;  */
+    
+    box-shadow: 0px 0px 29px 19px rgba(0,0,0,0.98);
+    z-index: 1;
+  }
+
+  /* .banner-img {
+    position: absolute;
+    top: 116px;
+    left: 18%; 
+    width: 1192px;
+    height: 259px; 
+    background-image: url("../img/banner2.jpg");
+    background-size: 1192px 259px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 29px 19px rgba(0,0,0,0.98);
+    z-index: 1;
+  } */
