@@ -10797,8 +10797,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary.btn-simple {
-  color: #205a93;
-  border-color: #205a93;
+  color: #ffd600;
+  border-color: #ffd600;
   background: transparent;
 }
 
@@ -10806,8 +10806,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary.btn-simple:focus,
 .btn-primary.btn-simple:active,
 .btn-primary.btn-simple:not(:disabled):not(.disabled):active {
-  color: #205a93;
-  border-color: #205a93;
+  color: #ffd600;
+  border-color: #ffd600;
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none;
@@ -10922,8 +10922,8 @@ fieldset[disabled] .btn-success.active {
 }
 
 .btn-success.btn-simple {
-  color: #00f2c3;
-  border-color: #00f2c3;
+  color: #ffd600;
+  border-color: #ffd600;
   background: transparent;
 }
 
@@ -11047,8 +11047,8 @@ fieldset[disabled] .btn-info.active {
 }
 
 .btn-info.btn-simple {
-  color: #1d8cf8;
-  border-color: #1d8cf8;
+  color: #ffd600;
+  border-color: #ffd600;
   background: transparent;
 }
 
@@ -11056,8 +11056,8 @@ fieldset[disabled] .btn-info.active {
 .btn-info.btn-simple:focus,
 .btn-info.btn-simple:active,
 .btn-info.btn-simple:not(:disabled):not(.disabled):active {
-  color: #1d8cf8;
-  border-color: #1d8cf8;
+  color: #ffd600;
+  border-color: #ffd600;
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none;
@@ -17386,11 +17386,11 @@ hr.line-primary {
 }
 
 hr.line-info {
-  background-color: #1d8cf8;
+  background-color: #ffd600;
 }
 
 hr.line-success {
-  background-color: #00f2c3;
+  background-color: #ffd600;
 }
 
 hr.line-warning {
@@ -20341,7 +20341,7 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 }
 
 .card.card-coin {
-  border: 2px solid #344675;
+  border: 2px solid #ffd600;
 }
 
 .card.card-coin .card-header {
