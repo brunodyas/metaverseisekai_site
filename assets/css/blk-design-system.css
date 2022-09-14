@@ -5948,6 +5948,8 @@ button.close {
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.5);
   outline: 0;
   left: 13%;
+  border-radius: 46px !important;
+  border-color: #000;
 
 }
 
